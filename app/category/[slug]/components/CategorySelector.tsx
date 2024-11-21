@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Orders from "./Orders";
 
 export default function CategorySelector(props: { value: unknown }) {
   const router = useRouter();
